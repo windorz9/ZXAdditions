@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ZXAdditions.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *array = @[@6,@6,@6,@6,@6,@6,@6,@6];
+    NSLog(@"%@", array);
+    
+    NSDictionary *dic = @{@"key" : @"windorz",
+                          @"key1" : @"zx",
+                          @"key2" : @"w"
+                          };
+    NSLog(@"%@", dic);
 }
 
 

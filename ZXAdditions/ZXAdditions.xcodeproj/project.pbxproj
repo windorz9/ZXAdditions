@@ -13,6 +13,7 @@
 		262EB47D20940F9600BF8921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 262EB47C20940F9600BF8921 /* Assets.xcassets */; };
 		262EB48020940F9600BF8921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262EB47E20940F9600BF8921 /* LaunchScreen.storyboard */; };
 		262EB48320940F9600BF8921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48220940F9600BF8921 /* main.m */; };
+		262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48F209414F700BF8921 /* NSArray+ZXlog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		262EB47F20940F9600BF8921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		262EB48120940F9600BF8921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		262EB48220940F9600BF8921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		262EB48A2094115F00BF8921 /* ZXAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAdditions.h; sourceTree = "<group>"; };
+		262EB48E209414F700BF8921 /* NSArray+ZXlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXlog.h"; sourceTree = "<group>"; };
+		262EB48F209414F700BF8921 /* NSArray+ZXlog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZXlog.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,22 @@
 				262EB47420940F9500BF8921 /* AppDelegate.m */,
 				262EB47620940F9500BF8921 /* ViewController.h */,
 				262EB47720940F9500BF8921 /* ViewController.m */,
+				262EB4892094113E00BF8921 /* ZXAdditions */,
 				262EB47920940F9500BF8921 /* Main.storyboard */,
 				262EB47C20940F9600BF8921 /* Assets.xcassets */,
 				262EB47E20940F9600BF8921 /* LaunchScreen.storyboard */,
 				262EB48120940F9600BF8921 /* Info.plist */,
 				262EB48220940F9600BF8921 /* main.m */,
+			);
+			path = ZXAdditions;
+			sourceTree = "<group>";
+		};
+		262EB4892094113E00BF8921 /* ZXAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				262EB48A2094115F00BF8921 /* ZXAdditions.h */,
+				262EB48E209414F700BF8921 /* NSArray+ZXlog.h */,
+				262EB48F209414F700BF8921 /* NSArray+ZXlog.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -142,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
+				262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */,
 				262EB48320940F9600BF8921 /* main.m in Sources */,
 				262EB47520940F9500BF8921 /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26Z2MG3ME2;
 				INFOPLIST_FILE = ZXAdditions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 26Z2MG3ME2;
 				INFOPLIST_FILE = ZXAdditions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
