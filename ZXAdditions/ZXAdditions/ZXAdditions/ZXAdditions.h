@@ -10,6 +10,7 @@
 #define ZXAdditions_h
 
 #import "NSArray+ZXlog.h"
+#import "NSAttributedString+ZXAddition.h"
 
 
 #endif /* ZXAdditions_h */

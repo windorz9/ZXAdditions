@@ -14,6 +14,8 @@
 		262EB48020940F9600BF8921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 262EB47E20940F9600BF8921 /* LaunchScreen.storyboard */; };
 		262EB48320940F9600BF8921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48220940F9600BF8921 /* main.m */; };
 		262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48F209414F700BF8921 /* NSArray+ZXlog.m */; };
+		262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB4922094186F00BF8921 /* NSAttributedString+ZXAddition.m */; };
+		262EB49520941C5B00BF8921 /* tabbar_compose_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		262EB48A2094115F00BF8921 /* ZXAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZXAdditions.h; sourceTree = "<group>"; };
 		262EB48E209414F700BF8921 /* NSArray+ZXlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ZXlog.h"; sourceTree = "<group>"; };
 		262EB48F209414F700BF8921 /* NSArray+ZXlog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZXlog.m"; sourceTree = "<group>"; };
+		262EB4912094186F00BF8921 /* NSAttributedString+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZXAddition.h"; sourceTree = "<group>"; };
+		262EB4922094186F00BF8921 /* NSAttributedString+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZXAddition.m"; sourceTree = "<group>"; };
+		262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +74,7 @@
 				262EB4892094113E00BF8921 /* ZXAdditions */,
 				262EB47920940F9500BF8921 /* Main.storyboard */,
 				262EB47C20940F9600BF8921 /* Assets.xcassets */,
+				262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */,
 				262EB47E20940F9600BF8921 /* LaunchScreen.storyboard */,
 				262EB48120940F9600BF8921 /* Info.plist */,
 				262EB48220940F9600BF8921 /* main.m */,
@@ -82,6 +88,8 @@
 				262EB48A2094115F00BF8921 /* ZXAdditions.h */,
 				262EB48E209414F700BF8921 /* NSArray+ZXlog.h */,
 				262EB48F209414F700BF8921 /* NSArray+ZXlog.m */,
+				262EB4912094186F00BF8921 /* NSAttributedString+ZXAddition.h */,
+				262EB4922094186F00BF8921 /* NSAttributedString+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -144,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				262EB48020940F9600BF8921 /* LaunchScreen.storyboard in Resources */,
+				262EB49520941C5B00BF8921 /* tabbar_compose_button@2x.png in Resources */,
 				262EB47D20940F9600BF8921 /* Assets.xcassets in Resources */,
 				262EB47B20940F9500BF8921 /* Main.storyboard in Resources */,
 			);
@@ -156,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */,
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
 				262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */,
 				262EB48320940F9600BF8921 /* main.m in Sources */,
