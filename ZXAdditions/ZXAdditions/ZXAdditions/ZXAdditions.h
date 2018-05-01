@@ -11,6 +11,7 @@
 
 #import "NSArray+ZXlog.h"
 #import "NSAttributedString+ZXAddition.h"
-
+#import "NSObject+ZXRuntime.h"
+#import "NSString+ZXBase64.h"
 
 #endif /* ZXAdditions_h */

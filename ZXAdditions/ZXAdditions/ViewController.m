@@ -36,12 +36,31 @@
     [self.view addSubview:textView];
     
     
+    NSArray *property = [UIPageControl zx_propertiesList];
+    
+    NSLog(@"%@", property);
+    
+    NSArray *ivar = [UIPageControl zx_ivarsList];
+    NSLog(@"%@", ivar);
+    
+    NSDictionary *dict = @{@"name": @"windorz"};
+    
+    for (NSString *key in dict) {
+        NSLog(@"--%@", key);
+    }
+    
+    NSString *temp = @"QQ==";
+    
+    NSString *result = [temp zx_base64Decode];
+    NSLog(@"%@", result);
+    
 }
 
 
 - (void)didReceiveMemoryWarning {
+    
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
 }
 
 

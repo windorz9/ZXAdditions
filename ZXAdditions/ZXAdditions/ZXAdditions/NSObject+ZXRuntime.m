@@ -251,7 +251,6 @@ void *ivarsKey = "zx.ivarsList";
                 }
             } else if ([dictinary[key] isKindOfClass:[NSArray<NSDictionary *> class]]) { // 属性值为字典数组.
                 
-                
             } else {
                 
                 [obj setValue:dictinary[key] forKey:key];
