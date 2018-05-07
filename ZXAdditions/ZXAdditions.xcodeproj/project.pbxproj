@@ -15,10 +15,10 @@
 		262EB48320940F9600BF8921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48220940F9600BF8921 /* main.m */; };
 		262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB48F209414F700BF8921 /* NSArray+ZXlog.m */; };
 		262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB4922094186F00BF8921 /* NSAttributedString+ZXAddition.m */; };
-		262EB49520941C5B00BF8921 /* tabbar_compose_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */; };
 		262EB4982094210700BF8921 /* NSObject+ZXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB4972094210700BF8921 /* NSObject+ZXRuntime.m */; };
 		262EB49B2098AA9600BF8921 /* NSString+ZXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB49A2098AA9600BF8921 /* NSString+ZXBase64.m */; };
 		266E3C5120A07A6D00A8788C /* NSString+ZXPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */; };
+		266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */; };
 		26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */; };
 /* End PBXBuildFile section */
 
@@ -38,13 +38,14 @@
 		262EB48F209414F700BF8921 /* NSArray+ZXlog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ZXlog.m"; sourceTree = "<group>"; };
 		262EB4912094186F00BF8921 /* NSAttributedString+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+ZXAddition.h"; sourceTree = "<group>"; };
 		262EB4922094186F00BF8921 /* NSAttributedString+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+ZXAddition.m"; sourceTree = "<group>"; };
-		262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_compose_button@2x.png"; sourceTree = "<group>"; };
 		262EB4962094210700BF8921 /* NSObject+ZXRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+ZXRuntime.h"; sourceTree = "<group>"; };
 		262EB4972094210700BF8921 /* NSObject+ZXRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ZXRuntime.m"; sourceTree = "<group>"; };
 		262EB4992098AA9600BF8921 /* NSString+ZXBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXBase64.h"; sourceTree = "<group>"; };
 		262EB49A2098AA9600BF8921 /* NSString+ZXBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXBase64.m"; sourceTree = "<group>"; };
 		266E3C4F20A07A6D00A8788C /* NSString+ZXPaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXPaths.h"; sourceTree = "<group>"; };
 		266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXPaths.m"; sourceTree = "<group>"; };
+		266E3C5220A07B7800A8788C /* UIButton+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZXAddition.h"; sourceTree = "<group>"; };
+		266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZXAddition.m"; sourceTree = "<group>"; };
 		26E60B7A209EE24E00F4007B /* NSString+ZXHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXHash.h"; sourceTree = "<group>"; };
 		26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +87,6 @@
 				262EB4892094113E00BF8921 /* ZXAdditions */,
 				262EB47920940F9500BF8921 /* Main.storyboard */,
 				262EB47C20940F9600BF8921 /* Assets.xcassets */,
-				262EB49420941C5A00BF8921 /* tabbar_compose_button@2x.png */,
 				262EB47E20940F9600BF8921 /* LaunchScreen.storyboard */,
 				262EB48120940F9600BF8921 /* Info.plist */,
 				262EB48220940F9600BF8921 /* main.m */,
@@ -110,6 +110,8 @@
 				26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */,
 				266E3C4F20A07A6D00A8788C /* NSString+ZXPaths.h */,
 				266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */,
+				266E3C5220A07B7800A8788C /* UIButton+ZXAddition.h */,
+				266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -172,7 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				262EB48020940F9600BF8921 /* LaunchScreen.storyboard in Resources */,
-				262EB49520941C5B00BF8921 /* tabbar_compose_button@2x.png in Resources */,
 				262EB47D20940F9600BF8921 /* Assets.xcassets in Resources */,
 				262EB47B20940F9500BF8921 /* Main.storyboard in Resources */,
 			);
@@ -186,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */,
+				266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */,
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
 				262EB49B2098AA9600BF8921 /* NSString+ZXBase64.m in Sources */,
 				262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */,

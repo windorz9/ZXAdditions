@@ -54,6 +54,14 @@
     NSString *result = [temp zx_base64Decode];
     NSLog(@"%@", result);
     
+    
+    
+    testBtn.center = self.view.center;
+    
+    [self.view addSubview:testBtn];
+    
+    
+    
 }
 
 

@@ -13,5 +13,8 @@
 #import "NSAttributedString+ZXAddition.h"
 #import "NSObject+ZXRuntime.h"
 #import "NSString+ZXBase64.h"
+#import "NSString+ZXHash.h"
+#import "NSString+ZXPaths.h"
+#import "UIButton+ZXAddition.h"
 
 #endif /* ZXAdditions_h */
