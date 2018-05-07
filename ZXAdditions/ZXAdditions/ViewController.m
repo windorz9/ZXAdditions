@@ -56,9 +56,6 @@
     
     
     
-    testBtn.center = self.view.center;
-    
-    [self.view addSubview:testBtn];
     
     
     
