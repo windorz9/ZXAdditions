@@ -21,6 +21,7 @@
 		266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */; };
 		266E3C5820A1737900A8788C /* UIColor+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */; };
 		266E3C5B20A1765400A8788C /* UIImage+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5A20A1765400A8788C /* UIImage+ZXAddition.m */; };
+		266E3C5E20A1AABC00A8788C /* UILabel+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */; };
 		26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXAddition.m"; sourceTree = "<group>"; };
 		266E3C5920A1765400A8788C /* UIImage+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+ZXAddition.h"; sourceTree = "<group>"; };
 		266E3C5A20A1765400A8788C /* UIImage+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ZXAddition.m"; sourceTree = "<group>"; };
+		266E3C5C20A1AABC00A8788C /* UILabel+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ZXAddition.h"; sourceTree = "<group>"; };
+		266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZXAddition.m"; sourceTree = "<group>"; };
 		26E60B7A209EE24E00F4007B /* NSString+ZXHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXHash.h"; sourceTree = "<group>"; };
 		26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,6 +125,8 @@
 				266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */,
 				266E3C5920A1765400A8788C /* UIImage+ZXAddition.h */,
 				266E3C5A20A1765400A8788C /* UIImage+ZXAddition.m */,
+				266E3C5C20A1AABC00A8788C /* UILabel+ZXAddition.h */,
+				266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -203,6 +208,7 @@
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
 				262EB49B2098AA9600BF8921 /* NSString+ZXBase64.m in Sources */,
 				262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */,
+				266E3C5E20A1AABC00A8788C /* UILabel+ZXAddition.m in Sources */,
 				262EB48320940F9600BF8921 /* main.m in Sources */,
 				266E3C5120A07A6D00A8788C /* NSString+ZXPaths.m in Sources */,
 				26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */,
