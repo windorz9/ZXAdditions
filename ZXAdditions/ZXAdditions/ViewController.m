@@ -61,6 +61,7 @@
     
     NSLog(@"%@", [UIImage zx_resizeImage:@"normal"]);
     
+    [self zx_addChildController:[[UIViewController alloc] init] intoView:self.view];
     
     
 }

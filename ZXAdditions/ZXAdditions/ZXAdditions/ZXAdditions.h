@@ -18,6 +18,8 @@
 #import "UIButton+ZXAddition.h"
 #import "UIColor+ZXAddition.h"
 #import "UIImage+ZXAddition.h"
-
+#import "UIView+ZXAddition.h"
+#import "UIView+ZXFrameAddition.h"
+#import "UIViewController+ZXAddition.h"
 
 #endif /* ZXAdditions_h */

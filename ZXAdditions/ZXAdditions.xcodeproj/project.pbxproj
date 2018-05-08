@@ -25,6 +25,7 @@
 		266E3C6120A1ABEA00A8788C /* UIScreen+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C6020A1ABEA00A8788C /* UIScreen+ZXAddition.m */; };
 		266E3C6420A1AD0200A8788C /* UIView+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */; };
 		266E3C6720A1AE6100A8788C /* UIView+ZXFrameAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C6620A1AE6100A8788C /* UIView+ZXFrameAddition.m */; };
+		26E4A10220A1BAC9004CCBB0 /* UIViewController+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E4A10120A1BAC9004CCBB0 /* UIViewController+ZXAddition.m */; };
 		26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXAddition.m"; sourceTree = "<group>"; };
 		266E3C6520A1AE6100A8788C /* UIView+ZXFrameAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXFrameAddition.h"; sourceTree = "<group>"; };
 		266E3C6620A1AE6100A8788C /* UIView+ZXFrameAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXFrameAddition.m"; sourceTree = "<group>"; };
+		26E4A10020A1BAC9004CCBB0 /* UIViewController+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ZXAddition.h"; sourceTree = "<group>"; };
+		26E4A10120A1BAC9004CCBB0 /* UIViewController+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ZXAddition.m"; sourceTree = "<group>"; };
 		26E60B7A209EE24E00F4007B /* NSString+ZXHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXHash.h"; sourceTree = "<group>"; };
 		26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -142,6 +145,8 @@
 				266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */,
 				266E3C6520A1AE6100A8788C /* UIView+ZXFrameAddition.h */,
 				266E3C6620A1AE6100A8788C /* UIView+ZXFrameAddition.m */,
+				26E4A10020A1BAC9004CCBB0 /* UIViewController+ZXAddition.h */,
+				26E4A10120A1BAC9004CCBB0 /* UIViewController+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
 				262EB49B2098AA9600BF8921 /* NSString+ZXBase64.m in Sources */,
 				262EB490209414F700BF8921 /* NSArray+ZXlog.m in Sources */,
+				26E4A10220A1BAC9004CCBB0 /* UIViewController+ZXAddition.m in Sources */,
 				266E3C6120A1ABEA00A8788C /* UIScreen+ZXAddition.m in Sources */,
 				266E3C5E20A1AABC00A8788C /* UILabel+ZXAddition.m in Sources */,
 				262EB48320940F9600BF8921 /* main.m in Sources */,
