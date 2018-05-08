@@ -16,5 +16,8 @@
 #import "NSString+ZXHash.h"
 #import "NSString+ZXPaths.h"
 #import "UIButton+ZXAddition.h"
+#import "UIColor+ZXAddition.h"
+#import "UIImage+ZXAddition.h"
+
 
 #endif /* ZXAdditions_h */

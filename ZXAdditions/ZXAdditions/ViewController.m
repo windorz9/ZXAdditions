@@ -55,7 +55,11 @@
     NSLog(@"%@", result);
     
     
+    UIImage *image = [UIImage imageNamed:@"normal"];
     
+    NSLog(@"%@", image);
+    
+    NSLog(@"%@", [UIImage zx_resizeImage:@"normal"]);
     
     
     
