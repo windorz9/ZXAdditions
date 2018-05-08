@@ -23,6 +23,7 @@
 		266E3C5B20A1765400A8788C /* UIImage+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5A20A1765400A8788C /* UIImage+ZXAddition.m */; };
 		266E3C5E20A1AABC00A8788C /* UILabel+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */; };
 		266E3C6120A1ABEA00A8788C /* UIScreen+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C6020A1ABEA00A8788C /* UIScreen+ZXAddition.m */; };
+		266E3C6420A1AD0200A8788C /* UIView+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */; };
 		26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,8 @@
 		266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ZXAddition.m"; sourceTree = "<group>"; };
 		266E3C5F20A1ABEA00A8788C /* UIScreen+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScreen+ZXAddition.h"; sourceTree = "<group>"; };
 		266E3C6020A1ABEA00A8788C /* UIScreen+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+ZXAddition.m"; sourceTree = "<group>"; };
+		266E3C6220A1AD0100A8788C /* UIView+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXAddition.h"; sourceTree = "<group>"; };
+		266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXAddition.m"; sourceTree = "<group>"; };
 		26E60B7A209EE24E00F4007B /* NSString+ZXHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXHash.h"; sourceTree = "<group>"; };
 		26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +135,8 @@
 				266E3C5D20A1AABC00A8788C /* UILabel+ZXAddition.m */,
 				266E3C5F20A1ABEA00A8788C /* UIScreen+ZXAddition.h */,
 				266E3C6020A1ABEA00A8788C /* UIScreen+ZXAddition.m */,
+				266E3C6220A1AD0100A8788C /* UIView+ZXAddition.h */,
+				266E3C6320A1AD0200A8788C /* UIView+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -208,6 +213,7 @@
 			files = (
 				266E3C5820A1737900A8788C /* UIColor+ZXAddition.m in Sources */,
 				266E3C5B20A1765400A8788C /* UIImage+ZXAddition.m in Sources */,
+				266E3C6420A1AD0200A8788C /* UIView+ZXAddition.m in Sources */,
 				262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */,
 				266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */,
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
