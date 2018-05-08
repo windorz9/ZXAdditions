@@ -19,6 +19,7 @@
 		262EB49B2098AA9600BF8921 /* NSString+ZXBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 262EB49A2098AA9600BF8921 /* NSString+ZXBase64.m */; };
 		266E3C5120A07A6D00A8788C /* NSString+ZXPaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */; };
 		266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */; };
+		266E3C5820A1737900A8788C /* UIColor+ZXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */; };
 		26E60B7C209EE24E00F4007B /* NSString+ZXHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXPaths.m"; sourceTree = "<group>"; };
 		266E3C5220A07B7800A8788C /* UIButton+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ZXAddition.h"; sourceTree = "<group>"; };
 		266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ZXAddition.m"; sourceTree = "<group>"; };
+		266E3C5620A1737900A8788C /* UIColor+ZXAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+ZXAddition.h"; sourceTree = "<group>"; };
+		266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ZXAddition.m"; sourceTree = "<group>"; };
 		26E60B7A209EE24E00F4007B /* NSString+ZXHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ZXHash.h"; sourceTree = "<group>"; };
 		26E60B7B209EE24E00F4007B /* NSString+ZXHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZXHash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +115,8 @@
 				266E3C5020A07A6D00A8788C /* NSString+ZXPaths.m */,
 				266E3C5220A07B7800A8788C /* UIButton+ZXAddition.h */,
 				266E3C5320A07B7800A8788C /* UIButton+ZXAddition.m */,
+				266E3C5620A1737900A8788C /* UIColor+ZXAddition.h */,
+				266E3C5720A1737900A8788C /* UIColor+ZXAddition.m */,
 			);
 			path = ZXAdditions;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				266E3C5820A1737900A8788C /* UIColor+ZXAddition.m in Sources */,
 				262EB4932094186F00BF8921 /* NSAttributedString+ZXAddition.m in Sources */,
 				266E3C5420A07B7800A8788C /* UIButton+ZXAddition.m in Sources */,
 				262EB47820940F9500BF8921 /* ViewController.m in Sources */,
