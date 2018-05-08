@@ -16,7 +16,7 @@
 
  @param text 文本
  @param fontSize 字体大小
- @param color 字体颜色
+ @param textColor 字体颜色
  @return 返回一个 label
  */
 + (instancetype)zx_labelWithText:(NSString *)text fontSize:(CGFloat)fontSize color:(UIColor *)textColor;
